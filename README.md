@@ -18,4 +18,6 @@ If the display works well when the notebook is on, but when the notebook is off,
 
 It is necessary to remove the 0R resistor number R7725 in the schematic. This resistor is very easy to locate and there should be electrical continuity (using a multimeter) with pin 1 of the LCD ribbon cable connector, CN2, 40 pin. (The connector on the LCD is 30 pin)
 
+The LCD control board is very thin and it is more difficult to place this adaptation on the LCD side, it is easier to place it on the motherboard.
+
 ![img](https://raw.githubusercontent.com/rtek1000/HP_Probook_440_G5_Prot/refs/heads/main/Img/Schematic1.png)
