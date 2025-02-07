@@ -8,7 +8,7 @@ The motherboard sends 12 V directly to the screen, even when the notebook is tur
 
 Due to a "leakage" of electrical current in the backlight LEDs, the backlight may occasionally turn on when the notebook is turned off.
 
-The LCD has a control board, which receives the 12V and raises it to 24V in a DC-DC circuit.
+The LCD has a control board, which receives the 12V and raises it to 24V in a DC-DC circuit, when the BLON_CON signal is 3.3V.
 
 When the BLON_CON signal is 0V, the DC-DC stops raising the voltage (24V), but the LEDs still continue to receive 12V.
 
